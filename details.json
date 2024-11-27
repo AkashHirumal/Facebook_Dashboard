@@ -25,7 +25,7 @@
         { "name": "Comments", "total": 890, "averagePerPost": 22 },
         { "name": "Shares", "total": 560, "averagePerPost": 14 }
       ],
-      "chartType": "bar",
+     
       "datap": [
         { "post": "Post 1", "likes": 120, "comments": 30, "shares": 18 },
         { "post": "Post 2", "likes": 90, "comments": 20, "shares": 15 },
@@ -37,15 +37,27 @@
       "topPosts": [
         {
           "title": "Top Post of the Month",
-          "engagement": 650,
-          "reach": 2400,
-          "link": "https://example.com/post1"
+          "engagement": 6500,
+          "reach": 24000,
+          "photo": "./img/map5.jpg"
         },
         {
-          "title": "Second Best Post",
-          "engagement": 540,
-          "reach": 1800,
-          "link": "https://example.com/post2"
+          "title": "2nd Best Post",
+          "engagement": 5400,
+          "reach": 8800,
+          "photo": "./img/photo2.jpg"
+        },
+        {
+          "title": "3rd Best Post",
+          "engagement": 950,
+          "reach": 5400,
+          "photo": "./img/photo1.png"
+        },
+        {
+          "title": "4th Best Post",
+          "engagement": 890,
+          "reach": 4800,
+          "photo": "./img/pam8.jpg"
         }
       ],
       "metrics": [

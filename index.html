@@ -3,6 +3,7 @@
   <head>
     <title>Social Media Analytics</title>
     <!-- Add CDN links -->
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,62 +16,39 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Your Dashboard</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-          </ul>
-        </div>
+        <a class="navbar-brand" href="#">Social Media Analytics</a>
       </div>
     </nav>
 
-    <div class="grid text-center" style="--bs-gap: .25rem 1rem;">
-    <div class="col-md-6">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Follower Growth Chart</h5>
-      
-                    <div>
-                      <canvas id="myChart" width="100%"></canvas>
-                    </div>
+    <div class="container overflow-hidden text-center ">
+        <div class="row gy-5">
+          <div class="col-6">
+                <div class="card chartcrd">
+                    <h5 class="card-title">Follower growth</h5>
+                    <canvas id="myChart" width="100%"></canvas>
                   </div>
-                </div>
-              </div>
-        <div class="g-col-6">.g-col-6</div>
-      
-        <div class="g-col-6">.g-col-6</div>
-        <div class="g-col-6">
-            <div class="col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Best Posting Times</h5>
-                <div>
-                  <canvas id="myChart2"  width="100%"></canvas>
-                </div>
-              </div>
-            </div>
           </div>
+          <div class="col-6">
+            <div class="card chartcrd">
+                <h5 class="card-title">Best Posting Times</h5>
+                <canvas id="myChart2" width="100%"></canvas>
+            </div>
+            </div>
         </div>
-      </div>
+        </div>
 
-      <!-- Dashboard content -->
+
+    <!-- //////////////////////////// -->
+
+    <div class="row p-5 row-cols-1 row-cols-md-2 g-4" id="firstDetails" >
     </div>
+
+    <!-- ///////////////////////////// -->
+
+
+
+    <!-- Dashboard content -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
