@@ -37,26 +37,20 @@
       "topPosts": [
         {
           "title": "Top Post of the Month",
-          "engagement": 6500,
-          "reach": 24000,
+          "engagement": 950,
+          "reach": 630,
           "photo": "./img/map5.jpg"
         },
         {
           "title": "2nd Best Post",
-          "engagement": 5400,
-          "reach": 8800,
-          "photo": "./img/photo2.jpg"
-        },
-        {
-          "title": "3rd Best Post",
-          "engagement": 950,
-          "reach": 5400,
+          "engagement": 750,
+          "reach": 403,
           "photo": "./img/photo1.png"
         },
         {
-          "title": "4th Best Post",
-          "engagement": 890,
-          "reach": 4800,
+          "title": "3rd Best Post",
+          "engagement": 590,
+          "reach": 96,
           "photo": "./img/pam8.jpg"
         }
       ],
