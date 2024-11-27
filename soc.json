@@ -1,0 +1,89 @@
+[
+    {
+      "section": "Follower Growth",
+      "metrics": [
+        {
+          "name": "Total Followers",
+          "value": 12000,
+          "change": "+8%"
+        },
+        {
+          "name": "New Followers This Month",
+          "value": 450,
+          "change": "+12%"
+        }
+      ]
+    },
+    {
+        "month": ["Jan","Feb","Mar","Apr","May"],
+        "followers": [3000,3500,6200,9000,8000] 
+    },
+    {
+      "section": "Post Engagement Metrics",
+      "metrics": [
+        { "name": "Likes", "total": 3200, "averagePerPost": 80 },
+        { "name": "Comments", "total": 890, "averagePerPost": 22 },
+        { "name": "Shares", "total": 560, "averagePerPost": 14 }
+      ],
+      "chartType": "bar",
+      "datap": [
+        { "post": "Post 1", "likes": 120, "comments": 30, "shares": 18 },
+        { "post": "Post 2", "likes": 90, "comments": 20, "shares": 15 },
+        { "post": "Post 3", "likes": 60, "comments": 10, "shares": 8 }
+      ]
+    },
+    {
+      "section": "Content Performance",
+      "topPosts": [
+        {
+          "title": "Top Post of the Month",
+          "engagement": 650,
+          "reach": 2400,
+          "link": "https://example.com/post1"
+        },
+        {
+          "title": "Second Best Post",
+          "engagement": 540,
+          "reach": 1800,
+          "link": "https://example.com/post2"
+        }
+      ],
+      "metrics": [
+        { "name": "Average Reach", "value": 1800 },
+        { "name": "Average Engagement Rate", "value": "5.6%" }
+      ]
+    },
+    {
+      "section": "Best Posting Times",
+      "recommendations": [
+        { "day": "Sunday", "time": 8 },
+        { "day": "Monday", "time": 11 },
+        { "day": "Thuseday", "time": 9 },
+        { "day": "Wednesday", "time": 15 },
+        { "day": "thursday", "time": 17 },
+        { "day": "Friday", "time": 12 },
+        { "day": "Sunday", "time": 17 }
+      ]
+    },
+    {
+      "section": "Audience Breakdown",
+      "demographics": {
+        "ageGroups": {
+          "18-24": "35%",
+          "25-34": "45%",
+          "35-44": "15%",
+          "45+": "5%"
+        },
+        "genders": {
+          "male": "55%",
+          "female": "45%"
+        },
+        "locations": {
+          "USA": "60%",
+          "UK": "20%",
+          "Other": "20%"
+        }
+      }
+    }
+  ]
+  
